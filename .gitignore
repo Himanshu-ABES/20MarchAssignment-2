@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Security / Secrets ###
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+!src/main/resources/application-example.properties
+!src/main/resources/application-template.properties
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
